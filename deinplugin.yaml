@@ -1,27 +1,82 @@
 specVersion: 1
 type: skript
-name: Troll Plugin
+name:
+  de: Troll System [Made in China]
+  en: Troll system [Made in Germany]
 authors:
   - Tibet
+download:
+  url: https://github.com/Skydinse-de/Trollsystem
+  name: Download (.rar)
+supportedPlatforms:
+  - spigot
+  - paper
 supportedGameVersions: ^1.19
-category: fun
-introduction: Ein einfaches Troll Plugin was dir erlaubt Spieler reinzulegen.
-description: |
-  # Features
-  ```txt
-    - Werfe Spieler hoch in die Luft!
-    - Friere Spieler schlagartig ein.
-    - Lasse bösen Spielern sein Spiel abstürzen. 
-  ```
-
-    # Nutzung
-  ```txt
-  [1] Spieler in die Luft werfen
-  [2] Spieler einfrieren / entfrieren
-  [3] Spieler sein Spiel abstürtzen
-
-  /troll <Spieler> <Typ>
-   
-  Beispiel:
-  /troll GommeHD 1 
-  ```
+category: misc
+dependencies:
+  - url: https://www.spigotmc.org/resources/protocollib.1997/
+    name: ProtocolLib
+    versionRange: 5.x
+    required: true
+  - url: https://github.com/SkriptLang/Skript/
+    name: Skript
+    required: true
+  - url: https://www.spigotmc.org/resources/poask-skript-addon.104512/
+    name: PoaSK
+    required: true
+introduction:
+  de: Räche dich an bösen Spielern
+  en: Get revenge on EVIL players
+description:
+  de: |
+      # Features
+      - Werfe Spieler hoch in die Luft!
+      - Friere Spieler schlagartig ein.
+      - Lasse bösen Spielern sein Spiel abstürzen.
+      
+      
+      # Nutzung
+      [1] Spieler in die Luft werfen
+      [2] Spieler einfrieren / entfrieren
+      [3] Spieler sein Spiel abstürtzen
+      
+      /troll <Spieler> <Typ>
+      
+      Beispiel:
+      /troll GommeHD 1 
+  en: |
+      # Features
+      - Werfe Spieler hoch in die Luft!
+      - Friere Spieler schlagartig ein.
+      - Lasse bösen Spielern sein Spiel abstürzen.
+      
+      
+      # Nutzung
+      [1] Spieler in die Luft werfen
+      [2] Spieler einfrieren / entfrieren
+      [3] Spieler sein Spiel abstürtzen
+      
+      /troll <Spieler> <Typ>
+      
+      Beispiel:
+      /troll GommeHD 1
+installation:
+  de: |
+    - Plugins runterladen und in den Plugins-Ordner ziehen
+    - Server neustarten
+    - Nach dem erstellen des /plugins/Skript/scripts ordner die trollsystem.sk rein platzieren
+    - Ingame den Befehl /sk reload trollsystem ausführen
+  en: |
+    - Download all Plugins (included in .rar file) and put them into the plugins folder
+    - Restart server
+    - After the folder plugins/Skript/scripts has been created, put the trollsystem.sk in there
+    - Execute the command "/sk reload trollsystem" ingame
+tags:
+  - troll
+  - skript
+  - UwU
+images:
+  - https://cdn.discordapp.com/attachments/817099547435073546/1058710803961888858/Screenshot_2022-12-31_143629.png
+icon: https://pbs.twimg.com/profile_images/826566806668128256/cofafTVM_400x400.jpg
+videoSources:
+  - https://www.youtube.com/watch?v=dQw4w9WgXcQ
