@@ -3,7 +3,7 @@ type: skript
 name: Troll Plugin
 authors:
   - Tibet
-supportedGameVersions: ^1.8
+supportedGameVersions: ^1.19
 category: fun
 introduction: Ein einfaches Troll Plugin was dir erlaubt Spieler reinzulegen.
 description: |
@@ -24,3 +24,4 @@ description: |
      
     Beispiel:
     /troll GommeHD 1 
+       ```
