@@ -7,21 +7,21 @@ supportedGameVersions: ^1.19
 category: fun
 introduction: Ein einfaches Troll Plugin was dir erlaubt Spieler reinzulegen.
 description: |
-      # Features
-      ```txt
-      - Werfe Spieler hoch in die Luft!
-      - Friere Spieler schlagartig ein.
-      - Lasse bösen Spielern sein Spiel abstürzen. 
-   ```
+  # Features
+  ```txt
+    - Werfe Spieler hoch in die Luft!
+    - Friere Spieler schlagartig ein.
+    - Lasse bösen Spielern sein Spiel abstürzen. 
+  ```
 
-      # Nutzung
-      ```txt
-    [1] Spieler in die Luft werfen
-    [2] Spieler einfrieren / entfrieren
-    [3] Spieler sein Spiel abstürtzen
-    
-    /troll <Spieler> <Typ>
-     
-    Beispiel:
-    /troll GommeHD 1 
-   ```
+    # Nutzung
+  ```txt
+  [1] Spieler in die Luft werfen
+  [2] Spieler einfrieren / entfrieren
+  [3] Spieler sein Spiel abstürtzen
+
+  /troll <Spieler> <Typ>
+   
+  Beispiel:
+  /troll GommeHD 1 
+  ```
